@@ -643,3 +643,22 @@ section{
     max-height: 52px;
     overflow: hidden;
 }
+.mm-blog-list-title-wrapper h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+.mm-site-more-btn {
+    margin: 10px 0 45px;
+}
+.mm-blog-article-title-wrapper h2 {
+    font-weight: normal;
+    padding: 15px 0;
+    border-bottom: 1px solid #585858;
+    margin-bottom: 15px;
+    line-height: 34px;
+}
+.mm-blog-content .mm-summary-list-wrapper {
+    padding: 0px 0 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #585858;
+}

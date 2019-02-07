@@ -70,3 +70,6 @@ html {
 .mm-close-full-content {
     background-color: #191919;
 }
+.mm-blog-list-title-wrapper h3 a:hover {
+    color: #007588;
+}
