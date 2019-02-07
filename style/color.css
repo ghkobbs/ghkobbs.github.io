@@ -73,3 +73,13 @@ html {
 .mm-blog-list-title-wrapper h3 a:hover {
     color: #007588;
 }
+.mm-blog-article-title-wrapper h2 {
+    border-bottom: 1px solid #585858;
+}
+.mm-blog-content .mm-summary-list-wrapper {
+    border-bottom: 1px solid #585858;
+}
+.mm-form-field {
+    border-bottom: 1px solid #979797;
+    color: #a0a0a0;
+}
