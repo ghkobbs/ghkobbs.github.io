@@ -725,8 +725,21 @@ textarea.mm-form-field {
     margin-bottom: 0;
 }
 @media only screen and (max-width: 1025px) {
+    .mm-tooltip {
+        top: unset;
+        left: 0;
+        z-index: 1;
+    }
+    .home-item .mm-tooltip {
+        margin-top: 8px;
+    }
+    .mm-tooltip:after {
+        top: -1px;
+        right: 37px;
+        transform: rotate(-47deg);
+    }
     .mm-content-wrapper {
-        width: 98%;
+        width: 95%;
         padding-top: 0;
     }
     .mm-side-wrapper {
