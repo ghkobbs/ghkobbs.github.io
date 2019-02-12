@@ -83,3 +83,11 @@ html {
     border-bottom: 1px solid #979797;
     color: #a0a0a0;
 }
+::selection {
+  background: #1d1d1d;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #1d1d1d;
+  /* Gecko Browsers */
+}

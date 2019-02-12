@@ -308,6 +308,9 @@ section{
     border: 1px solid;
     position: relative;
 }
+section:last-child {
+    margin-bottom: 0;
+}
 .mm-section-title h2{
     font-weight: 100;
     font-family: 'Assistant', sans-serif;
@@ -720,4 +723,67 @@ textarea.mm-form-field {
 }
 .mm-copyright-section p {
     margin-bottom: 0;
+}
+@media only screen and (max-width: 1025px) {
+    .mm-content-wrapper {
+        width: 98%;
+    }
+    .mm-side-wrapper {
+        float: none;
+        position: relative;
+        top: 0;
+    }
+    .mm-navigation-items {
+        text-align: center;
+    }
+    .mm-navigation-item {
+        display: inline-block;
+        padding: 0;
+        margin: 0 15px;
+    }
+    .mm-navigation-item a {
+        padding: 15px;
+        display: block;
+    }
+    .mm-navigation-item .mm-icon {
+        font-size: 44px;
+    }
+    .mm-right-side .mm-side-container {
+        width: 100%;
+    }
+    .mm-main-wrapper {
+        width: 100%;
+        margin: 15px 0 0;
+    }
+    .mm-portfolio-list .mm-portfolio-item img {
+        max-height: none;
+        max-width: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .mm-blog-list .mm-blog-list-item {
+        width: 100%;
+    }
+    .mm-blog-list .mm-blog-list-image-wrapper {
+        overflow: hidden;
+    }
+    .mm-blog-list .mm-blog-list-image-wrapper img {
+        max-width: none;
+        max-height: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .mm-portfolio-list .mm-portfolio-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .mm-contact-form-content {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 484px) and (max-width: 600px) {
+    .mm-contact-content {
+        display: inline-block;
+        width: 49%;
+    }
 }
