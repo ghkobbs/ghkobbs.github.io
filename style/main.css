@@ -770,6 +770,15 @@ textarea.mm-form-field {
     .mm-blog-list .mm-blog-list-image-wrapper img {
         max-width: none;
         max-height: none;
+        width: auto;
+    }
+    .mm-left-sub,
+    .mm-right-sub {
+        width: 100%;
+        float: none;
+    }
+    .mm-right-sub {
+        margin-top: 40px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -779,6 +788,17 @@ textarea.mm-form-field {
     }
     .mm-contact-form-content {
         width: 100%;
+    }
+    .mm-navigation-items {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .mm-navigation-item {
+       margin-bottom: 0 5px; 
+    }
+    .mm-navigation-item .mm-icon {
+        font-size: 40px;
     }
 }
 @media only screen and (min-width: 484px) and (max-width: 600px) {
