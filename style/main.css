@@ -821,3 +821,14 @@ textarea.mm-form-field {
         width: 49%;
     }
 }
+@media only screen and (max-width: 380px) {
+    .mm-services-list .mm-service-name {
+        font-size: 17px;
+    }
+    .mm-services-list .mm-service-icon {
+        font-size: 25px;
+    }
+    .mm-section-title h2 {
+        line-height: 35px;
+    }
+}
