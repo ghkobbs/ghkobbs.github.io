@@ -727,6 +727,7 @@ textarea.mm-form-field {
 @media only screen and (max-width: 1025px) {
     .mm-content-wrapper {
         width: 98%;
+        padding-top: 0;
     }
     .mm-side-wrapper {
         float: none;
