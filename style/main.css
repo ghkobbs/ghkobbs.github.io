@@ -389,6 +389,9 @@ section:last-child {
     width: 100%;
     padding-bottom: 15px;
 }
+.mm-timeline-item p {
+    opacity: 0.75;
+}
 .mm-timeline-item-left {
     width: 30%;
     padding-right: 25px;
