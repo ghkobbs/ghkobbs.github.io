@@ -1,93 +1,15 @@
-body,
-html {
-    background: #1d1d1d;
-    color: #a0a0a0;
-}
-.mm-link {
-    color: #ff6100;
-}
-.mm-navigation-item .mm-link {
-    color: #b3b3b3;
-    text-decoration: none;
-}
-.mm-tooltip {
-    background: #404040;
-}
-.mm-tooltip:after {
-    border-color: transparent #404040 transparent transparent;
-}
-.mm-card {
-    background: #1d1d1d;
-}
-.mm-card-top {
-    background: #2b2b2b;
-}
-.mm-card-social-item .mm-link {
-    color: #ffffff;
-}
-.mm-site-btn {
-    background-color: #007588;
-    color: #ffffff;
-}
-.mm-site-btn:hover {
-    background-color: #016271;
-}
-.mm-site-back-btn {
-    background-color: #1d1d1d;
-}
-.mm-site-back-btn:hover {
-    background-color: #191919;
-}
-.mm-bg-bubbles li {
-    background-color: rgba(2, 2, 2, 0.15);
-}
-.mm-section,
-.mm-content-loader-wrapper,
-.mm-full-content-wrapper {
-    background: #2b2b2b;
-    border-color: #1d1d1d;
-}
-.mm-divider {
-    background: #1d1d1d;
-}
-.mm-description a {
-    color: inherit;
-}
-.mm-timeline-divider {
-    background-color: #1d1d1d;
-
-}
-.mm-timeline-divider:before {
-    background-color: #1d1d1d;
-    border-color: #1d1d1d;
-}
-.mm-portfolio-list .mm-portfolio-item:after {
-    background-color: rgba(0, 0, 0, 0.7215686274509804);
-}
-.mm-portfolio-info-content-wrapper .mm-portfolio-info-title {
-    color: #ffffff;
-}
-.mm-close-full-content {
-    background-color: #191919;
-}
-.mm-blog-list-title-wrapper h3 a:hover {
-    color: #007588;
-}
-.mm-blog-article-title-wrapper h2 {
-    border-bottom: 1px solid #585858;
-}
-.mm-blog-content .mm-summary-list-wrapper {
-    border-bottom: 1px solid #585858;
-}
-.mm-form-field {
-    border-bottom: 1px solid #979797;
-    color: #a0a0a0;
-}
-::selection {
-  background: #1d1d1d;
-  /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #1d1d1d;
-  /* Gecko Browsers */
+:root {
+    --body-black: #1d1d1d;
+    --main-link-color: #ff6100;
+    --navigation-link: #b3b3b3;
+    --tooltip-background: #404040;
+    --light-black: #2b2b2b;
+    --white: #ffffff;
+    --deep-blue: #016271;
+    --light-blue: #007588;
+    --lighter-black: #191919;
+    --bubble-background: rgba(2, 2, 2, 0.15);
+    --overlay: rgba(0, 0, 0, 0.72);
+    --deep-grey: #585858;
+    --font-color: #a0a0a0;
 }
